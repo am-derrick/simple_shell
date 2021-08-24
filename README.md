@@ -1,4 +1,4 @@
-# Simple_Shell 
+# Simple Shell 
 
 ## Description
 simple_shell is a command line interpreter, or shell, in the tradition of the first Unix shell written by Ken Thompson in 1971. This shell is intentionally minimalistic, yet includes the basic functionality of a traditional Unix-like command line user interface.
@@ -9,12 +9,6 @@ FILE | CONTENT/USAGE
 ---- | -------------
 man_1_simple_shell | Manual Page For The Project.
 Authors | Names and Contacts Of The Two Contributors.
-_putchar | Writes char to stdout
-_strcat.c | Concatenates two strings
-_strcmp.c | Compares two strings
-_strdup.c | Duplicates a string
-_strlen.c | Returns length of the string
-print_text | Prints text to stdout
 shell.h | Header file with all prototypes
 
 ## Requirements
@@ -90,7 +84,7 @@ At this time, there are no known bugs.
 ## Authors
 Ampire Derrick | [GitHub](https://github.com/am-derrick)
 
-Mofokeng Kenneth | [GitHub](https://github.com/kenneth-bit)
+Mfokeng Kenneth | [GitHub](https://github.com/kenneth-bit)
 
 ## License
-simple_shell is open source and therefore free to download and use without permission.
+Simple Shell is open source and therefore free to download and use without permission.
