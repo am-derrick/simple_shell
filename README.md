@@ -9,6 +9,13 @@ FILE | CONTENT/USAGE
 ---- | -------------
 man_1_simple_shell | Manual Page For The Project.
 Authors | Names and Contacts Of The Two Contributors.
+_putchar | Writes char to stdout
+_strcat.c | Concatenates two strings
+_strcmp.c | Compares two strings
+_strdup.c | Duplicates a string
+_strlen.c | Returns length of the string
+print_text | Prints text to stdout
+shell.h | Header file with all prototypes
 
 ## Requirements
 
@@ -16,7 +23,7 @@ simple_shell is designed to run in the `Ubuntu 14.04 LTS` linux environment and 
 
 ## Installation
 
-   - Clone this repository: `git clone "https://github.com/alexaorrico/simple_shell.git"`
+   - Clone this repository: `git clone "https://github.com/am-derrick/simple_shell.git"`
    - Change directories into the repository: `cd simple_shell`
    - Compile: `gcc -Wall -Werror -Wextra -pedantic *.c -o hsh`
    - Run the shell in interactive mode: `./hsh`
