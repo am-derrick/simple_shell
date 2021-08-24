@@ -10,6 +10,7 @@ FILE | CONTENT/USAGE
 man_1_simple_shell | Manual Page For The Project.
 Authors | Names and Contacts Of The Two Contributors.
 shell.h | Header file with all prototypes
+tokenize.c | Tokenizing function
 
 ## Requirements
 
