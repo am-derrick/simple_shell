@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Reinitialized existing Git repository in /root/simple_shell/.git/
 root@862b102c0a03:~/simple_shell# git push -u origin/master
 fatal: 'origin/master' does not appear to be a git repository
@@ -34,6 +35,8 @@ Date:   Tue Aug 24 07:12:30 2021 -0700
 
     Create README.md for simple_shell
 root@862b102c0a03:~/simple_shell# cat man_1_simple_shell
+=======
+>>>>>>> master
 .TH hsh 1 "July 20, 2021" "1.0" "hsh General Commands Manual"
 
 .SH NAME
