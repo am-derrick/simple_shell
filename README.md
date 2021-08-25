@@ -10,9 +10,9 @@ FILE | CONTENT/USAGE
 man_1_simple_shell | Manual Page For The Project.
 Authors | Names and Contacts Of The Two Contributors.
 builtins.c | Checks For Builtins Like `env`, `new_setenv` etc.
-             - `check_for_builtins` - checks to see if the user's command matches a builtin function
-             - new_exit - exits the shell with the option of a specified status
-             - _env - prints the shell's environment variables to the standard output
+             * check_for_builtins - checks to see if the user's command matches a builtin function
+             * new_exit - exits the shell with the option of a specified status
+             * _env - prints the shell's environment variables to the standard output
              * new_setenv - initializes a new environment variable, or modifies an existing one
              * new_unsetenv - removes an environment variable
 builtins2.c | - add_key - creates a new environment variable
