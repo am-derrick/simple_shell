@@ -27,9 +27,8 @@ strfunc.c | functions related to string manipulation
 	    - _strcmpr - compares two strings
 	    - _strcat - concatenates two strings with a / in the middle
 	    - _strlen - calculates the length of a string
-
-
-
+shell.h | Header file with all prototypes
+tokenize.c | Tokenizing function
 
 ## Requirements
 
@@ -37,7 +36,7 @@ simple_shell is designed to run in the `Ubuntu 14.04 LTS` linux environment and 
 
 ## Installation
 
-   - Clone this repository: `git clone "https://github.com/alexaorrico/simple_shell.git"`
+   - Clone this repository: `git clone "https://github.com/am-derrick/simple_shell.git"`
    - Change directories into the repository: `cd simple_shell`
    - Compile: `gcc -Wall -Werror -Wextra -pedantic *.c -o hsh`
    - Run the shell in interactive mode: `./hsh`
@@ -104,7 +103,7 @@ At this time, there are no known bugs.
 ## Authors
 Ampire Derrick | [GitHub](https://github.com/am-derrick)
 
-Mofokeng Kenneth | [GitHub](https://github.com/kenneth-bit)
+Mfokeng Kenneth | [GitHub](https://github.com/kenneth-bit)
 
 ## License
-simple_shell is open source and therefore free to download and use without permission.
+Simple Shell is open source and therefore free to download and use without permission.
