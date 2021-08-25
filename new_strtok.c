@@ -1,11 +1,10 @@
 #include "shell.h"
-
 /**
- * check_match - checks if a character matches another in a string
+ * check_match - checks if a character matches any in a string
  * @c: character to check
  * @str: string to check
  *
- * Return: 1 if match, otherwise 0
+ * Return: 1 if match, 0 if not
  */
 unsigned int check_match(char c, const char *str)
 {
@@ -22,9 +21,9 @@ unsigned int check_match(char c, const char *str)
 /**
  * new_strtok - custom strtok
  * @str: string to tokenize
- * @delim: delimeter to tokenize against
+ * @delim: delimiter to tokenize against
  *
- * Return: pointer to next tokenor NULL
+ * Return: pointer to the next token or NULL
  */
 char *new_strtok(char *str, const char *delim)
 {
@@ -37,7 +36,7 @@ char *new_strtok(char *str, const char *delim)
 	token_start = next_token;
 	if (token_start == NULL)
 		return (NULL);
-	for (i = 0; next_token[i] != '\0\; i++)
+	for (i = 0; next_token[i] != '\0'; i++)
 	{
 		if (check_match(next_token[i], delim) == 0)
 			break;
