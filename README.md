@@ -9,20 +9,14 @@ FILE | CONTENT/USAGE
 ---- | -------------
 man_1_simple_shell | Manual Page For The Project.
 Authors | Names and Contacts Of The Two Contributors.
-<<<<<<< HEAD
-builtins.c | Checks For Builtins Like `env`, `new_setenv` etc.
-builtins2.c | - add_key - creates a new environment variable
-              - find_key - finds an environment variable in the environment array
-              - add_value - creates a new environment variable string
-              - _atoi - converts a string into a non-negative integer
-=======
+builtins.c | Functions Related To Builtine.
+builtins2.c | Functions Related To Builtins.
 builtins.c | Functions Related To Builtins Like.
 builtins2.c | Functions Related To Environments.
->>>>>>> origin/main
-environment.c | functions related to the environment
-strfunc.c | Functions Related To String Manipulation
-shell.h | Header file with all prototypes
-tokenize.c | Tokenizing function
+environment.c | functions related to the environment.
+strfunc.c | Functions Related To String Manipulation.
+shell.h | Header file with all prototypes.
+tokenize.c | Tokenizing function.
 
 ## Requirements
 
