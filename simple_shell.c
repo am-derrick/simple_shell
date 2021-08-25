@@ -4,8 +4,8 @@
 unsigned int sig_flag;
 
 /**
- * sig_handler - handler ^C signal interupt
- * @uuv: unused varaible
+ * sig_handler - handles ^C signal interupt
+ * @uuv: unused variable (required for signal function prototype)
  *
  * Return: void
  */
@@ -19,9 +19,9 @@ static void sig_handler(int uuv)
 }
 
 /**
- * main - main function of the shell
- * @argc: number of arguments
- * @argv: array of arguments
+ * main - main function for the shell
+ * @argc: number of arguments passed to main
+ * @argv: array of arguments passed to main
  * @environment: array of environment variables
  *
  * Return: 0 or exit status, or ?
@@ -51,7 +51,7 @@ int main(int argc __attribute__((unused)), char **argv, char **environment)
 			if (vars.av && vars.av[0])
 				if (check_for_builtins(&vars) == NULL)
 					check_for_path(&vars);
-			free(vars.av);
+		free(vars.av);
 		}
 		free(vars.buffer);
 		free(vars.commands);
