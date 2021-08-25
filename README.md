@@ -19,15 +19,10 @@ builtins2.c | - add_key - creates a new environment variable
               - find_key - finds an environment variable in the environment array
               - add_value - creates a new environment variable string
               - _atoi - converts a string into a non-negative integer
+builtins.c | Functions Related To Builtins Like.
+builtins2.c | Functions Related To Environments.
 environment.c | functions related to the environment
-                - make_env - creates the shell's environment from the parent process
-		- free_env - frees the shell's environment
-strfunc.c | functions related to string manipulation
-	    - _puts - writes a string to standart output
-	    - _strdup - duplicates a string
-	    - _strcmpr - compares two strings
-	    - _strcat - concatenates two strings with a / in the middle
-	    - _strlen - calculates the length of a string
+strfunc.c | Functions Related To String Manipulation
 shell.h | Header file with all prototypes
 tokenize.c | Tokenizing function
 
