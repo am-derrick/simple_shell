@@ -11,6 +11,14 @@ man_1_simple_shell | Manual Page For The Project.
 Authors | Names and Contacts Of The Two Contributors.
 shell.h | Header file with all prototypes
 tokenize.c | Tokenizing function
+builtins.c | Builtin functions
+builtins2.c | Helper functions for builtins
+environment.c | Functions for environment
+memory_allocation.c | Memory allocation functions
+new_strtok.c | custom strtok
+path.c | Functions related to PATH and commands
+simple_shell.c | main functions for shell
+strfunc.c | Functions for strings
 
 ## Requirements
 
