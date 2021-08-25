@@ -9,6 +9,7 @@ FILE | CONTENT/USAGE
 ---- | -------------
 man_1_simple_shell | Manual Page For The Project.
 Authors | Names and Contacts Of The Two Contributors.
+<<<<<<< HEAD
 shell.h | Header file with all prototypes
 tokenize.c | Tokenizing function
 builtins.c | Builtin functions
@@ -19,9 +20,15 @@ new_strtok.c | custom strtok
 path.c | Functions related to PATH and commands
 simple_shell.c | main functions for shell
 strfunc.c | Functions for strings
+=======
+builtins.c | Functions Related To Builtins.
+builtins2.c | Functions Related To Builtins.
+environment.c | Functions Related To The Environment.
+strfunc.c | Functions Related To String Manipulation.
+shell.h | Header File With All Prototypes.
+>>>>>>> 920382e97ba45e5aa7814f428c306d3effef7835
 
 ## Requirements
-
 simple_shell is designed to run in the `Ubuntu 14.04 LTS` linux environment and to be compiled using the GNU compiler collection v. `gcc 4.8.4` with flags`-Wall, -Werror, -Wextra, and -pedantic.`
 
 ## Installation
