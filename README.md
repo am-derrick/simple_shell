@@ -9,36 +9,13 @@ FILE | CONTENT/USAGE
 ---- | -------------
 man_1_simple_shell | Manual Page For The Project.
 Authors | Names and Contacts Of The Two Contributors.
-<<<<<<< HEAD
-builtins.c | Functions Related To Builtine.
+builtins.c | Functions Related To Builtins.
 builtins2.c | Functions Related To Builtins.
-builtins.c | Functions Related To Builtins Like.
-builtins2.c | Functions Related To Environments.
-environment.c | functions related to the environment.
+environment.c | Functions Related To The Environment.
 strfunc.c | Functions Related To String Manipulation.
-shell.h | Header file with all prototypes.
-tokenize.c | Tokenizing function.
-=======
-builtins.c | Checks For Builtins Like `env`, `new_setenv` etc.
-             * check_for_builtins - checks to see if the user's command matches a builtin function
-             * new_exit - exits the shell with the option of a specified status
-             * _env - prints the shell's environment variables to the standard output
-             * new_setenv - initializes a new environment variable, or modifies an existing one
-             * new_unsetenv - removes an environment variable
-builtins2.c | - add_key - creates a new environment variable
-              - find_key - finds an environment variable in the environment array
-              - add_value - creates a new environment variable string
-              - _atoi - converts a string into a non-negative integer
-builtins.c | Functions Related To Builtins Like.
-builtins2.c | Functions Related To Environments.
-environment.c | functions related to the environment
-strfunc.c | Functions Related To String Manipulation
-shell.h | Header file with all prototypes
-tokenize.c | Tokenizing function
->>>>>>> 9b4f64d118729536d921a41fecb9e808f9797fc6
+shell.h | Header File With All Prototypes.
 
 ## Requirements
-
 simple_shell is designed to run in the `Ubuntu 14.04 LTS` linux environment and to be compiled using the GNU compiler collection v. `gcc 4.8.4` with flags`-Wall, -Werror, -Wextra, and -pedantic.`
 
 ## Installation
