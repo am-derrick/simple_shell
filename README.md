@@ -7,7 +7,7 @@ Standard functions and system calls employed in simple_shell include:
 
 FILE | CONTENT/USAGE
 ---- | -------------
-man_1_simple_shell | Manual Page For The Project.
+man_1_simple_shell | Manual page for the project.
 Authors | Names and Contacts Of The Two Contributors.
 shell.h | Header file with all prototypes
 tokenize.c | Tokenizing function
@@ -15,7 +15,7 @@ builtins.c | Builtin functions
 builtins2.c | Helper functions for builtins
 environment.c | Functions for environment
 memory_allocation.c | Memory allocation functions
-new_strtok.c | custom strtok
+new_strtok.c | Custom strtok
 path.c | Functions related to PATH and commands
 simple_shell.c | main functions for shell
 strfunc.c | Functions for strings
